@@ -1,5 +1,5 @@
 // 1. 在 scala 中，类不需要用 public 声明,所有的类都具有公共的可见性
-class Person {
+class ScalaClass1 {
 
   println("Person 默认构造器被调用")
 
@@ -24,10 +24,10 @@ class Person {
 }
 
 // 伴生对象
-object Person {
+object ScalaClass1 {
   def main(args: Array[String]): Unit = {
     // 8.创建类的实例
-    val person = new Person()
+    val person = new ScalaClass1()
     // 9.用 var 修饰的变量默认拥有 getter/setter 属性，可以直接对其进行赋值
     person.age = 12
     person.growUp(8)

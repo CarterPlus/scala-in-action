@@ -1,5 +1,5 @@
 // Scala 中没有直接提供枚举类，需要通过扩展 Enumeration，并调用其中的 Value 方法对所有枚举值进行初始化来实现。
-object ColorEnum extends Enumeration {
+object ScalaEnum extends Enumeration {
   // 1.类型别名,建议声明,在 import 时有用
   type Color = Value
 

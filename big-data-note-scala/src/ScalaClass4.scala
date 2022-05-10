@@ -4,7 +4,7 @@
  * 辅助构造器的名称必须为 this；
  * 每个辅助构造器必须以主构造器或其他的辅助构造器的调用开始。
  */
-class Person4(val name: String, val age: Int) {
+class ScalaClass4(val name: String, val age: Int) {
   private var birthday = ""
 
   // 1.辅助构造器的名称必须为 this
@@ -18,8 +18,8 @@ class Person4(val name: String, val age: Int) {
   override def toString: String = name + ":" + age + ":" + birthday
 }
 
-object Person4 {
+object ScalaClass4 {
   def main(args: Array[String]): Unit = {
-    println(new Person4("Carter Hong", 10, "2022-02-02"))
+    println(new ScalaClass4("Carter Hong", 10, "2022-02-02"))
   }
 }
