@@ -1,4 +1,4 @@
-package extends_triat
+package `extends`
 
 // 1.使用 extends 关键字实现继承
 class ScalaExtendsEmployee extends ScalaExtendsPerson {

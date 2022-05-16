@@ -1,4 +1,4 @@
-package extends_triat
+package `extends`
 
 object ScalaExtendsTest extends App {
   val employee = new ScalaExtendsEmployee

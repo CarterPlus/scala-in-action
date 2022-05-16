@@ -1,4 +1,4 @@
-package extends_triat
+package `extends`
 
 /**
  * extends & override
