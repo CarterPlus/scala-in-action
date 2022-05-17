@@ -4,6 +4,7 @@ class ScalaClass2 {
   @BeanProperty var name = "Carter Lin"
   private var age = 12
   private[this] val birthday = "2022-09-12"
+
   // birthday 只能被内部方法所访问
   def getBirthday: String = birthday
 }

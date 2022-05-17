@@ -52,7 +52,7 @@ object ScalaApp extends App {
     val reader = new FileReader("wordCount.txt")
   } catch {
     case ex: FileNotFoundException =>
-//      ex.printStackTrace()
+      //      ex.printStackTrace()
       println("没有找到对应的文件!")
     case _ =>
       println("其它异常")

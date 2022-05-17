@@ -1,4 +1,5 @@
 // 1.使用类型别名导入枚举类
+
 import ScalaEnum.Color
 
 /**

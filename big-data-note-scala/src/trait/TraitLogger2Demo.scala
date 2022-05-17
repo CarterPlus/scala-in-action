@@ -5,7 +5,7 @@ object TraitLogger2Demo extends App {
   val person01 = new TraitPerson with TraitInfoLogger
   val person02 = new TraitPerson with TraitErrorLogger
   val person03 = new TraitPerson with TraitInfoLogger with TraitErrorLogger
-  person01.log("scala")  //输出 INFO:scala
-  person02.log("scala")  //输出 Error:scala
-  person03.log("scala")  //输出 Error:scala
+  person01.log("scala") //输出 INFO:scala
+  person02.log("scala") //输出 Error:scala
+  person03.log("scala") //输出 Error:scala
 }
