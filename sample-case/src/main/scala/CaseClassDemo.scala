@@ -13,5 +13,7 @@ object CaseClassDemo {
     // case class 的 toString方法是可以显示出每个参数的具体数值
     val caseClassDemo = new CaseClassDemo(id = 12, name = "Marry", birthday = LocalDateTime.now(), address = "Guangzhou Guangdong")
     println(caseClassDemo.toString) // CaseClassDemo(12,Marry,2022-05-05T22:24:44.340328900,Guangzhou Guangdong)
+
+    //    caseClassDemo.id = 1 // 会报错
   }
 }
